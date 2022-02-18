@@ -2,6 +2,43 @@
 # yarn lockfile v1
 
 
+"@rauschma/stringio@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@rauschma/stringio/-/stringio-1.4.0.tgz#0b667bea726652a10a48dfc1dadc89e0ec51e269"
+  integrity sha512-3uor2f/MXZkmX5RJf8r+OC3WvZVzpSme0yyL0rQDPEnatE02qRcqwEwnsgpgriEck0S/n4vWtUd6tTtrJwk45Q==
+  dependencies:
+    "@types/node" "^10.0.3"
+
+"@types/node@^10.0.3":
+  version "10.17.60"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.60.tgz#35f3d6213daed95da7f0f73e75bcc6980e90597b"
+  integrity sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==
+
+"@types/node@^16.4.13":
+  version "16.11.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.25.tgz#bb812b58bacbd060ce85921250d8b4ca553cd4a2"
+  integrity sha512-NrTwfD7L1RTc2qrHQD4RTTy4p0CO2LatKBEKEds3CaVuhoM/+DJzmWZl5f+ikR8cm8F5mfJxK+9rQq07gRiSjQ==
+
+node-bin-setup@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.0.tgz#9df94c41335a8f41958a639b2736f860582a209c"
+  integrity sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
+
+node-ts@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/node-ts/-/node-ts-5.1.2.tgz#4e1fa51e87506e042c7ea2b1e465684a79532274"
+  integrity sha512-ihRzS31ZbknFzXFkF4j9R3HJV1cRPTjyYzeRaEFyXv5DhWKGD+QNTJ+My5WiOc0kozEPjwRBsKh+g92hPyTNnQ==
+  dependencies:
+    "@rauschma/stringio" "^1.4.0"
+    "@types/node" "^16.4.13"
+
+node@^17.4.0:
+  version "17.4.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-17.4.0.tgz#946f480c8bc08720cfdb3f6681b8f8c913a6c8e0"
+  integrity sha512-/kPlbyQjDJa9NEOPmKSTmHOxgq+7wAMWNdU+8B9cXseQXTaF3xYAiYc9dCh3fDUxnrLR/DIqiYEQ85ICqSya8A==
+  dependencies:
+    node-bin-setup "^1.0.0"
+
 typescript@^4.5.5:
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
