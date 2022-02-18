@@ -1,0 +1,11 @@
+{
+  "name": "typescripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Tona-Mangobyte/typescripts.git",
+  "author": "Tona <tona@mango-byte.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
