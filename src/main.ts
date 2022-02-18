@@ -1,1 +1,7 @@
-console.log('Hello world')
+
+class Main {
+    static run() {
+        console.log('Hello world!')
+    }
+}
+Main.run()
