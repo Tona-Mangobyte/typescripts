@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es2019",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@app": [
+        "app"
+      ],
+      "@app/*": [
+        "app/*"
+      ],
+      "@libs/core": [
+        "libs/core/src"
+      ],
+      "@libs/core/*": [
+        "libs/core/src/*"
+      ],
+      "@libs/jwt": [
+        "libs/jwt/src"
+      ],
+      "@libs/jwt/*": [
+        "libs/jwt/src/*"
+      ],
+      "@libs/storage": [
+        "libs/storage/src"
+      ],
+      "@libs/storage/*": [
+        "libs/storage/src/*"
+      ]
+    }
+  }
+}
